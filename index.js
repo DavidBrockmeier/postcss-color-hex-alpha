@@ -76,5 +76,5 @@ function hexaToRgba(hex) {
     rgb.push(Math.round(value * DECIMAL_PRECISION) / DECIMAL_PRECISION)
   }
 
-  return color.rgb(rgb).string()
+  return color.hsl(rgb).string()
 }
