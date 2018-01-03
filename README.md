@@ -1,4 +1,4 @@
-# postcss-color-hex-hsl [![CSS Standard Status](https://jonathantneal.github.io/css-db/badge/css-color-hex-notation.svg)](https://jonathantneal.github.io/css-db/#css-color-hex-notation) [![Build Status](https://travis-ci.org/postcss/postcss-color-hex-hsl.png)](https://travis-ci.org/postcss/postcss-color-hex-hsl)
+# postcss-color-hex-hsl [![CSS Standard Status](https://jonathantneal.github.io/css-db/badge/css-color-hex-notation.svg)](https://jonathantneal.github.io/css-db/#css-color-hex-notation) [![Build Status](https://travis-ci.org/DavidBrockmeier/postcss-color-hex-hsl.png)](https://travis-ci.org/DavidBrockmeier/postcss-color-hex-hsl)
 
 > [PostCSS](https://github.com/postcss/postcss) plugin to transform [W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA)](http://dev.w3.org/csswg/css-color/#hex-notation) to more compatible CSS (rgba()).
 
@@ -51,7 +51,7 @@ Checkout [tests](test) for more examples.
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-    $ git clone https://github.com/postcss/postcss-color-hex-hsl.git
+    $ git clone https://github.com/DavidBrockmeier/postcss-color-hex-hsl.git
     $ git checkout -b patch-1
     $ npm install
     $ npm test
