@@ -1,5 +1,5 @@
 {
-  "name": "postcss-color-hex-alpha",
+  "name": "postcss-color-hex-hsl",
   "version": "3.0.0",
   "description": "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
   "keywords": [
@@ -15,19 +15,19 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/postcss/postcss-color-hex-alpha.git"
+    "url": "https://github.com/postcss/postcss-color-hex-hsl.git"
   },
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "color": "^1.0.3",
-    "postcss": "^6.0.1",
+    "color": "^2.0.1",
+    "postcss": "^6.0.15",
     "postcss-message-helpers": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "tape": "^4.6.3"
+    "eslint": "^4.14.0",
+    "tape": "^4.8.0"
   },
   "scripts": {
     "lint": "eslint *.js index.js ./test/",

@@ -14,7 +14,7 @@ var DECIMAL_PRECISION = 100000 // 5 decimals
 /**
  * PostCSS plugin to transform hexa alpha colors
  */
-module.exports = postcss.plugin("postcss-color-hex-alpha", function() {
+module.exports = postcss.plugin("postcss-color-hex-hsl", function() {
   return function(style) {
     style.walkDecls(function transformDecl(decl) {
       if (!decl.value || decl.value.indexOf("#") === -1) {
